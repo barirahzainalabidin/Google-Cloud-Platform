@@ -1,0 +1,31 @@
+{
+  "results": [ {
+    "alternatives": [ {
+      "confidence": 0.97305524,
+      "transcript": "of habits of jobs",
+      "words": [ {
+        "confidence": 0.95862556,
+        "endTime": "1.300s",
+        "startTime": "0s",
+        "word": "of"
+      }, {
+        "confidence": 0.98761111,
+        "endTime": "1.900s",
+        "startTime": "1.300s",
+        "word": "habits"
+      }, {
+        "confidence": 0.98860836,
+        "endTime": "2.900s",
+        "startTime": "1.900s",
+        "word": "of"
+      }, {
+        "confidence": 0.95737606,
+        "endTime": "4.200s",
+        "startTime": "2.900s",
+        "word": "jobs"
+      } ]
+    } ],
+    "languageCode": "en-us",
+    "resultEndTime": "4.920s"
+  } ]
+}

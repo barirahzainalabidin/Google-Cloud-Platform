@@ -1,0 +1,51 @@
+{
+  "results": [ {
+    "alternatives": [ {
+      "confidence": 0.88426191,
+      "transcript": "look at struggle like it's a bad thing",
+      "words": [ {
+        "confidence": 0.80397487,
+        "endTime": "0.700s",
+        "startTime": "0s",
+        "word": "look"
+      }, {
+        "confidence": 0.92237735,
+        "endTime": "1s",
+        "startTime": "0.700s",
+        "word": "at"
+      }, {
+        "confidence": 0.91186762,
+        "endTime": "1.300s",
+        "startTime": "1s",
+        "word": "struggle"
+      }, {
+        "confidence": 0.96285558,
+        "endTime": "2s",
+        "startTime": "1.300s",
+        "word": "like"
+      }, {
+        "confidence": 0.86163849,
+        "endTime": "2.600s",
+        "startTime": "2s",
+        "word": "it's"
+      }, {
+        "confidence": 0.89350873,
+        "endTime": "2.800s",
+        "startTime": "2.600s",
+        "word": "a"
+      }, {
+        "confidence": 0.82498962,
+        "endTime": "3s",
+        "startTime": "2.800s",
+        "word": "bad"
+      }, {
+        "confidence": 0.89288294,
+        "endTime": "3.100s",
+        "startTime": "3s",
+        "word": "thing"
+      } ]
+    } ],
+    "languageCode": "en-us",
+    "resultEndTime": "4.920s"
+  } ]
+}
