@@ -1,4 +1,4 @@
-CREATE OR REPLACE MODEL `machine-learning-1-438523.new_loan.train_model`
+CREATE OR REPLACE MODEL `train-1.new_loan.train_model`
 OPTIONS(
     model_type='logistic_reg',
     input_label_cols=['loan_status']
@@ -16,4 +16,4 @@ SELECT
     cb_person_default_on_file,
     cb_person_cred_hist_length,
     loan_status
-FROM `machine-learning-1-438523.new_loan.prepare_data`;
+FROM `train-1.new_loan.prepare_data`;
