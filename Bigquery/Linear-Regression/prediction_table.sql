@@ -1,4 +1,4 @@
-CREATE OR REPLACE TABLE `machine-learning-1-438523.housenew.prediction_table` AS
+CREATE OR REPLACE TABLE `train-1.housenew.prediction_table` AS
 SELECT
     YrSold AS year_sold,
     SalePrice AS total_sale_price,
@@ -14,7 +14,7 @@ SELECT
     GarageCars AS garage_cars,
     Fireplaces AS fireplaces
 FROM
-    `machine-learning-1-438523.housenew.imputed_price`
+    `train-1.housenew.imputed_price`
 WHERE
     YrSold = 2018
     AND SalePrice >= 100000
