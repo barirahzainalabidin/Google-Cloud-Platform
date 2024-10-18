@@ -1,5 +1,5 @@
 
-CREATE OR REPLACE MODEL `machine-learning-1-438523.housenew.house_price_forecasting`
+CREATE OR REPLACE MODEL `train-1.housenew.house_price_forecasting`
 OPTIONS
   (model_type = 'ARIMA',
    time_series_timestamp_col = 'year_sold',
@@ -12,7 +12,7 @@ WITH validated_data AS (
     PARSE_DATE('%Y', CAST(year_sold AS STRING)) AS year_sold,
     total_sale_price
   FROM
-    `machine-learning-1-438523.housenew.total_sales_price`
+    `train-1.housenew.total_sales_price`
   WHERE
     year_sold IS NOT NULL AND total_sale_price IS NOT NULL
 )
