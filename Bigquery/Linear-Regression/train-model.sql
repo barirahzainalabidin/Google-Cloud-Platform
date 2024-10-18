@@ -1,4 +1,4 @@
-CREATE OR REPLACE MODEL `machine-learning-1-438523.housenew.linear_regression_model`
+CREATE OR REPLACE MODEL `train-1.housenew.linear_regression_model`
 OPTIONS
   (model_type='linear_reg') AS
 SELECT
@@ -14,5 +14,5 @@ SELECT
   CASE WHEN year_sold IN (2009, 2010) THEN TRUE ELSE FALSE END AS is_recent_year,
   total_sale_price AS label
 FROM
-  `machine-learning-1-438523.housenew.training_table`;
+  `train-1.housenew.training_table`;
 
